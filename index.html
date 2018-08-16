@@ -1,112 +1,127 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>New Age - Start Bootstrap Theme</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="index.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link rel="stylesheet" href="font_awesome.css">
+    <link rel="stylesheet" href="simple_line_icons.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+
+    <!-- Plugin CSS -->
+    <link rel="stylesheet" href="device_mockups.css">
+
+    <!-- Custom styles for this template -->
+    <link href="index.css" rel="stylesheet">
+
+  </head>
+
+  <body id="page-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">MAJOR KEY</a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          Menu
+          <i class="fa fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="//">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#features">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="//">Socials</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <header class="masthead">
+      <div class="container h-400">
+        <div class="row h-400">
+          <div class="col-lg-7 my-auto">
+            <div class="header-content mx-auto"><br><br><br>
+
+
+<!DOCTYPE html>
+<html>
 <head>
-  <meta charset="UTF-8">
-  <link rel="stylesheet" type="text/css" href="css/preset/preset.css">
-  <!-- Put CSS Link here!-->
-  <title>CSS Practice</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+    box-sizing: border-box;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    height: 500px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+</style>
 </head>
 <body>
-	<div id="title-section">
-    <h1>The Ultimate CSS Walkthrough</h1>
-    <h2>An Introduction to Cascading Style Sheets</h2>
+
+<h2>Get to know us</h2>
+
+<div class="row">
+  <div class="column">
+    <h2>Chris</h2>
+    <p>Some text..</p>
   </div>
-  <hr>
-  <div id="welcome">
-    <p>Welcome! We're excited to have you here. Today, we'll be walking through learning CSS. It's going to be awesome.
-    </p>
+  <div class="column" >
+    <h2>Sophia</h2>
+    <p>Some text..</p>
   </div>
-  <hr>
-  <div class="info-section">
-    <h3>What is CSS again?</h3>
-    <p>CSS stands for Cascading Style Sheets. We use CSS to apply style and formatting to websites. It is a good practice as a programmer to keep <em>content</em> and <em>styling</em> separate. It helps keep our code organized, easy to read, and reuseble. CSS written for one page can be linked by multiple pages.  Different pages on a website can share a local file, often stored in a CSS subfolder. Different websites can even share CSS that is hosted remotely and accessed when a page loads.</p>
+  <div class="column">
+    <h2>Gracie</h2>
+    <p>Some text..</p>
   </div>
-  <hr>
-  <div class="info-section">
-    <h3>Tell me about CSS Syntax...</h3>
-    <p>CSS syntax is very consistent, regardless of what you're styling. The selector chooses the element whose formatting you want to change, in this example, all h1 tags. The declaration explains how to change selected the element.  Here, all h1 tags will have their text changed to blue and the font size set at 12 pixels.</p>
-    <img src="images/selector.gif">
-    <p>Make sure to add those semi-colons to the end of each declaration!  You can have as many declarations as you like for each selector.</p>
-    <p>It is possible to not only turn all h1 elements blue, but also make them to different fonts and sizes, give them borders, turn them upside-down, add them 3d effects, and even animate them! </p>
-  </div>
-  <hr>
-  <div class="info-section">
-    <h3>What Can I change Using CSS?</h3>
-    <ul>
-      <li class="font-style">Font style</li>
-      <li class="text-size">Text size</li>
-      <li class="background">Background</li>
-      <li class="borders">Borders</li>
-      <li class="page-layout">Page Layout (like this grid of examples!)</li>
-      <li class="margins">Margins</li>
-      <li class="rounding-edges">Rounding edges</li>
-      <li class="more">LOTS MORE...</li>
-    </ul>
-  </div>
-  <hr>
-  <div class="info-section">
-    <h3>How do we get get started on combining CSS HTML?</h3>
-    <p> The first thing you need to do is create a CSS stylesheet and link to it in your HTML file. Your link should be in the 'head' section of the html in this page and should look something like this:<br>
-     <pre>&#60link rel="stylesheet" type="text/css" href="path_to_stylesheet"&#62</pre>
-    <br>
-    There is a provided style.css file inside of the css folder in this code along. Go ahead and add a link tag to index.html in the 'head' section. The href should be set to "css/style.css"
-    </p>
-  </div>
-  <hr>
-  <div class="info-section">
-    <h3> Write your first CSS Declarations </h3>
-    <p> Now that style.css is linked to this webpage, we can start seeing some results when we style. Go into style.css, and add the following:</p>
-    <pre>
-    body {
-      background-color: lightblue;
-      font-size: 150%;
-    }
-    </pre>
-    <p>Save the file and refresh this page.  Whoa! The white background should now be a nice color and all our text is bigger!</p>
-    <hr>
-  </div>
-  <hr>
-  <h3>Curious! Everything got bigger!</h3>
-  <p>Feel free to set font-sizes back to normal. We set a font-size using the body tag, but did you notice that EVERYTHING got bigger? All the text on this page is inside 'p' and 'div' tags.</p>
-  <p>Because the 'body' tag contains all the 'p' tags and all the 'div' tags, some values we set, like font-size, will trickle down to the elements inside</p>
-  <hr>
-  <h3>What are classes and ids?</h3>
-  <p id="about-classes-and-ids">Selecting by tag like we just did works well when we are making changes to every instance of a tag (all 'h1', all 'p' tags, etc..).</p>
-  <p>Sometimes, we want only <em>some</em> 'p' tags to look a certain way, or even one specific tag. In order to change specific elements, we use CSS classes and ids.</p>
-  <p>To implement a class, we will need to write a CSS block just like we did with 'body'.  For example:
-  <pre>
-    .myClass {
-      background-color: gray;
-      color: blue
-    }
-  </pre>
-  <p>To write declarations for a class, first decide on a name. Writing '.', then the name will let CSS know these are class declarations</p>
-  <p>To use this class, we just put it inside any HTML element we want, like so:</p>
-  <pre>
-    <h3 class="myClass">Example Header</h3>
-  </pre>
-  Now, just this one 'h3' element will have a gray background and blue text! Not only that, <em>any</em> element that is given the class "myClass" will have a gray background and blue text.
-  </p>
-  <p>Let's practice this. First, create a class in 'style.css'.  It can be called anything you like. Your name, your favorite color, etc..</p>
-  <p>Next, add some declarations. If you're not sure what to add, try some or all of the following, and feel free to change the values:</p>
-  <pre>
-    .anExampleClass {
-      font-size: 300%;
-      background-color: lightgreen;
-      font-family: courier;
-      border: 1px dotted red;
-      text-transform: uppercase;
-      letter-spacing: 5px;
-      transition: rotate(-30)deg;
-    }
-  </pre>
-  <p>Finally, with our class declarations created, we need to assign this class to elements in index.html</p>
-  <p>Open index.html in your IDE, choose some HTML elements and add 'class=' followed by the name of your new class, in quotes. Maybe try adding a class to the `h1` and `h2` elements at the top of the page.</p>
-  <p>Save the work you've done, and refresh this page.  The elements you've selected should display the styling you've declared.</p>
-  <br>
-  <p>Using an id for styling works the same way, with only two main differences. Instead of '.' at the start of the class name in our CSS file, we use '#'. Also, when assigning to an HTML eleemnt, instead of typing 'class="myClass"', you would write:</p>
-  <pre>
-    <h1 id="myHeaderId">Header!</h1>
-  </pre>
+</div>
+    </header>
 </body>
+</html>
+    <footer>
+      <div class="container">
+        <p>&copy; MAJOR KEY 2018. All Rights Reserved.</p>
+      </div>
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="min.js"></script>
+    <script src="bundle_min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="jquery.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="index.js"></script>
+
+  </body>
 </html>
